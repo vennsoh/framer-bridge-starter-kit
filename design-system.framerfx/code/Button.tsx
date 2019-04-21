@@ -1,15 +1,15 @@
-import * as React from "react"
-import * as System from "../../design-system"
-import { ControlType, PropertyControls } from "framer"
+import * as React from "react";
+import * as System from "../../design-system";
+import { ControlType, PropertyControls } from "framer";
 
 type Props = System.ButtonProps & {
-  width: number
-  height: number
-}
+  width: number;
+  height: number;
+};
 
 export class Button extends React.Component<Props> {
   render() {
-    return <System.Button {...this.props} />
+    return <System.Button {...this.props} />;
   }
 
   static defaultProps: Props = {
@@ -18,7 +18,7 @@ export class Button extends React.Component<Props> {
     disabled: false,
     fluid: true,
     text: "Button"
-  }
+  };
 
   static propertyControls: PropertyControls<Props> = {
     text: { type: ControlType.String, title: "Text" },
@@ -29,5 +29,5 @@ export class Button extends React.Component<Props> {
     },
     disabled: { type: ControlType.Boolean, title: "Disabled" },
     fluid: { type: ControlType.Boolean, title: "Fluid" }
-  }
+  };
 }
