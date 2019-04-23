@@ -18,8 +18,8 @@ const color: Colors = {
   paneBg: "#FFF",
   paneBgDark: "#FDFDFD",
   paneBorder: "rgba(0, 0, 0, 0.1)",
-  // primary: "#75C", // Purple
-  primary: "#FF69B4", // Hot pink
+  primary: "#75C", // Purple
+  // primary: "#FF69B4", // Hot pink
   primaryDark: "#74C",
   primaryLight: "#EEF",
   danger: "#F44",
